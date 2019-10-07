@@ -8,7 +8,7 @@ class WebDriverFactory:
 
     def open_browser(self):
         base_url = "http://192.168.92.128/dolibarr-3.3.1/htdocs/index.php"
-        if self.browser.lower() == "firefox":
+        if self.browser == "firefox":
             driver = webdriver.Firefox()
         else:
             driver = webdriver.Chrome()
