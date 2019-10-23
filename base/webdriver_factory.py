@@ -2,7 +2,7 @@ from selenium import webdriver
 
 
 class WebDriverFactory:
-
+    """Not used anymore"""
     def __init__(self, browser_name):
         self.browser = browser_name
 
